@@ -16,7 +16,7 @@ address = input('What is your address? \n')
 phone = input('what is your phone number? \n')
 
 with open(fullPath, 'w+') as file_object:
-	file_object.write.format(f"{name}, {address}, {phone}")
+	file_object.write(f"{name}, {address}, {phone}")
 	
 
 with open(fullPath, 'r') as file_object:
